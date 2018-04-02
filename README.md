@@ -1,4 +1,4 @@
-## Logstash And Kibana
+## Kibana
 
 Ambari service for install and manageing Logstash and Kibana stack on HDP cluster
 
@@ -14,7 +14,7 @@ Note: there show the version of environment.
   [下载地址](https://www.elastic.co/downloads/past-releases)
 #### There are some problems to be noted here
 
- * Logstash unable to specify pid path.
+ 
  * Kibana's pid file unable :
 
     - kibana_pid_file = config\['configurations']\['kibana-site']\['kibana_pid_file']
