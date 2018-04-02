@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+   <property>
+    <name>kibana_user</name>
+    <value>kibana</value>
+    <description>kibana user</description>
+  </property>
+
+    <property>
+      <name>kibana_group</name>
+      <value>kibana</value>
+     <description>kibana group</description>
+    </property>
+
+    <property>
+        <name>work_dir</name>
+        <value>/usr/local/lib/ambari-service/kibana</value>
+        <description>tar包存放及解压目录</description>
+    </property>
+
+    <property>
+        <name>kibana_tar_url</name>
+        <value>http://192.168.1.38/ambari/HDP/centos6/elk/kibana-5.2.0-linux-x86_64.tar.gz</value>
+        <description>es tar包下载地址</description>
+    </property>
+
+</configuration>

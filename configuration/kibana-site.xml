@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+    <property>
+        <name>server.port</name>
+        <value>5601</value>
+        <description>The port to kibana.</description>
+    </property>
+    <property>
+        <name>server.host</name>
+        <value>"0.0.0.0"</value>
+        <description>remote machines will not be able to connect.</description>
+    </property>
+    <property>
+        <name>elasticsearch.url</name>
+        <value>"http://192.168.1.81:9200"</value>
+        <description>Cluster name identifies your node</description>
+    </property>
+
+    <property>
+        <name>kibana.index</name>
+        <value>".kibana"</value>
+        <description>elastic host</description>
+    </property>
+
+    <property>
+        <name>pid.file</name>
+        <value>/var/run</value>
+        <description>kibana pid</description>
+    </property>
+
+    <property>
+         <name>logging.dest</name>
+         <value>/var/log/kibana</value>
+         <description>Enables you specify a file where Kibana stores log output.</description>
+    </property>
+
+</configuration>
