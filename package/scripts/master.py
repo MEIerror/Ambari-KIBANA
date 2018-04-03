@@ -50,7 +50,7 @@ class Kibana(Script):
                 }
                 )
         import time
-        time.sleep(30)
+        time.sleep(20)
 
         cmd = format("lsof -i:{server_port}|grep -v 'PID'")+ "| awk 'NR==1 {print $2}'"
         code, output = shell.call(cmd)
