@@ -4,7 +4,7 @@
     <services>
         <service>
             <name>KIBANA</name>
-            <displayName>KIBANA</displayName>
+            <displayName>Kibana</displayName>
             <comment>Visualize the data. Navigate the Stack.</comment>
             <version>5.2.0</version>
             <components>
